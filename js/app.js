@@ -1,7 +1,5 @@
 import { personas } from "./persona.js";
-import { computersChoiceDisplay, pagina } from "./dom.js";
-import { usersChoiceDisplay } from "./dom.js";
-import { resultDisplay } from "./dom.js";
+import { pagina } from "./dom.js";
 
 const sectionMain = document.createElement("div")
 const parrafoPrincipal = document.createElement("p")
@@ -11,3 +9,5 @@ document.body.appendChild(parrafoPrincipal)
 
 sectionMain.innerHTML = pagina
 document.body.appendChild(sectionMain);
+
+/*hola*/
